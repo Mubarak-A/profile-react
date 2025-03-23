@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import './profile.css'
+import App from './assets/App';
+import './assets/profile'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,4 +11,3 @@ root.render(
 );
 
 
-reportWebVitals();
